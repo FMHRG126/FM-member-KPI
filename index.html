@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+
+<html lang="zh-Hant"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="緊急支援人力會員 KPI 制度：月獎金、領取條件、店長評分、出勤與服務品質加減分。" name="description"/><meta content="light" name="color-scheme"/><title>會員 KPI 制度｜緊急支援人力</title><style>
+:root{--text:#1f2937;--muted:#667085;--blue:#1f5d8f;--blue-dark:#174a72;--header:#dcecf7;--line:#aeb8c2;--bg:#f5f7fa}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:"Noto Sans TC","Microsoft JhengHei","PingFang TC",Arial,sans-serif;line-height:1.75}
+main{width:min(1100px,calc(100% - 28px));margin:28px auto 48px;background:#fff;padding:42px 48px 52px;border:1px solid #e3e8ee;box-shadow:0 6px 20px rgba(0,0,0,.04)}
+.main-title{font-size:32px;font-weight:800;text-align:center;line-height:1.4;margin:8px 0 30px;color:var(--blue-dark);letter-spacing:.5px}
+.main-title .eyebrow{display:block;font-size:20px;font-weight:700;margin-bottom:6px;letter-spacing:2px}
+.main-title .title-text{display:block}
+h2{margin:38px 0 16px;padding-bottom:8px;border-bottom:2px solid var(--blue);color:var(--blue-dark);font-size:24px;line-height:1.4}
+p{margin:0 0 14px;font-size:16px;font-weight:400}
+strong{font-weight:700}
+.intro{margin-bottom:0}
+.note{color:#465467;font-size:15px}
+.table-wrap{width:100%;margin:12px 0 18px}
+table{width:100%;border-collapse:collapse;background:#fff;table-layout:fixed;font-size:16px}
+th,td{border:1px solid var(--line);padding:11px 14px;vertical-align:middle;text-align:left;overflow-wrap:anywhere;word-break:normal}
+th{background:var(--header);font-weight:700;color:#173b5f}
+th[scope="row"]{background:#f4f8fc;font-weight:700}
+.reward-table th:first-child{width:64%}
+.reward-table th:last-child,.reward-table td:last-child{text-align:center}
+.reward-table .amount{font-size:24px;font-weight:800;color:var(--blue-dark);white-space:nowrap;font-variant-numeric:tabular-nums}
+.reward-table .unit{font-size:15px;margin-left:4px;font-weight:400}
+.count-table th:first-child{width:64%}
+.count-table th:last-child,.count-table td:last-child{text-align:center}
+.count{color:var(--blue-dark);font-size:20px;font-weight:700;white-space:nowrap}
+.callout{background:#eff6fb;border-left:4px solid var(--blue);padding:15px 18px;margin:18px 0}
+.callout p:last-child{margin-bottom:0}
+.callout strong{color:var(--blue-dark)}
+.conditions th:first-child{width:23%}
+.conditions td{line-height:1.8}
+.info-box{margin:18px 0 0;border:1px solid #cddbe7;border-radius:7px;overflow:hidden}
+.info-title{margin:0;padding:12px 16px;background:#f4f8fc;color:var(--blue-dark);font-size:16px;font-weight:700;line-height:1.6}
+.info-body{padding:16px 18px}
+.info-body p:last-child{margin-bottom:0}
+.formula{font-size:20px;font-weight:700;color:var(--blue-dark);letter-spacing:.3px}
+.payment-example{margin:18px 0;padding:17px 19px;border:1px solid #c5d9e9;border-radius:7px;background:#f6faff}
+.payment-example .label{color:var(--blue);font-size:14px;font-weight:700;margin-bottom:6px}
+.payment-example p:last-child{margin-bottom:0}
+.footer{margin-top:38px;padding-top:22px;border-top:1px solid #d9e2eb}
+.footer p{font-size:15px;color:#465467}
+.signature{text-align:right;font-weight:700!important;margin:20px 0 0!important;color:#465467}
+@media(max-width:760px){
+ main{width:100%;margin:0;padding:26px 16px 38px;border:0;box-shadow:none}
+ .main-title{font-size:clamp(24px,6.5vw,28px);margin-bottom:24px;letter-spacing:0}
+ .main-title .eyebrow{font-size:17px;letter-spacing:1.5px}
+ h2{font-size:21px;margin-top:32px}
+ p,table,th,td,.info-title{font-size:14px}
+ th,td{padding:9px 8px;line-height:1.6}
+ .reward-table .amount{font-size:22px}
+ .reward-table .unit{font-size:14px}
+ .count{font-size:19px}
+ .note,.footer p{font-size:14px}
+ .conditions th:first-child{width:26%}
+ .callout{padding:13px 14px}
+ .info-title{padding:11px 13px}
+ .info-body{padding:14px}
+ .formula{font-size:18px;letter-spacing:0}
+ .payment-example{padding:14px}
+ .footer{margin-top:30px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media print{
+ body{background:#fff}
+ main{width:100%;margin:0;padding:0;border:0;box-shadow:none}
+ h2{break-after:avoid}
+ table,.callout,.payment-example,.info-box{break-inside:avoid}
+}
+
+.kpi-table th:first-child{width:64%}.kpi-table th:last-child,.kpi-table td:last-child{text-align:center}.kpi-table .amount{font-size:23px;color:var(--blue-dark);font-weight:400}.kpi-table .unit{font-size:15px;margin-left:4px}.small-note{font-size:14px;color:#465467}.score-table th:first-child{width:56%}.score-table td:last-child{text-align:center}.small-table th:first-child{width:55%}.table-wrap{overflow-x:visible}a.tel{color:var(--blue-dark);font-weight:700;text-decoration:underline;white-space:nowrap}@media(max-width:760px){.kpi-table .amount{font-size:21px}.kpi-table .unit{font-size:14px}}
+
+/* 字級與層次校正版：所有制度內容、表格配色均不變 */
+.main-title{font-size:36px;line-height:1.36;margin:6px 0 32px;letter-spacing:.4px}
+.main-title .eyebrow{font-size:19px;line-height:1.5;font-weight:700;letter-spacing:1.1px;margin-bottom:5px}
+h2{font-size:23px;line-height:1.45;margin:36px 0 16px;padding-bottom:10px;font-weight:750}
+p{font-size:17px;line-height:1.85}
+table,th,td{font-size:16px;line-height:1.7}
+th,td{padding:12px 16px}
+.note,.small-note{font-size:15px;line-height:1.8}
+.info-title{font-size:17px}
+.footer p{font-size:15px}
+.kpi-table .amount,.reward-table .amount{font-size:21px;font-weight:700}
+.kpi-table .unit,.reward-table .unit{font-size:15px}
+@media(max-width:760px){
+ main{padding:27px 18px 38px}
+ .main-title{font-size:28px;line-height:1.35;margin:0 0 26px}
+ .main-title .eyebrow{font-size:17px;line-height:1.5;letter-spacing:.6px;margin-bottom:5px}
+ h2{font-size:21px;line-height:1.45;margin:31px 0 14px;padding-bottom:8px}
+ p{font-size:16px;line-height:1.85}
+ table,th,td{font-size:15px;line-height:1.7}
+ th,td{padding:11px 9px}
+ .note,.small-note,.footer p{font-size:14px;line-height:1.7}
+ .info-title{font-size:16px}
+ .kpi-table .amount,.reward-table .amount{font-size:19px}
+ .kpi-table .unit,.reward-table .unit{font-size:14px}
+ .callout{padding:14px 15px}
+}
+@media(max-width:360px){
+ main{padding-left:14px;padding-right:14px}
+ .main-title{font-size:26px}
+ h2{font-size:20px}
+ table,th,td{font-size:14px}
+ th,td{padding:9px 7px}
+}
+
+/* 五份統一：回到四份原始網頁一致的等大雙行標題；只影響主標題。 */
+.main-title{font-size:32px!important;font-weight:800!important;line-height:1.4!important;letter-spacing:.5px!important;text-align:center!important;margin:8px 0 30px!important}
+.main-title .title-text{display:block!important;font-size:inherit!important;line-height:inherit!important;font-weight:inherit!important}
+@media(max-width:760px){.main-title{font-size:clamp(24px,6.5vw,28px)!important;margin:8px 0 24px!important;letter-spacing:0!important}}
+@media(max-width:360px){.main-title{font-size:24px!important}}
+</style><style data-design-system="unified-five-pages">
+/* 五份制度網站共用視覺規範；不修改原始制度內容 */
+:root{--text:#1f2937;--muted:#667085;--blue:#1f5d8f;--blue-dark:#174a72;--header:#dcecf7;--line:#aeb8c2;--bg:#f5f7fa}
+body{font-family:"Noto Sans TC","Microsoft JhengHei","PingFang TC",Arial,sans-serif;line-height:1.78;color:var(--text);background:var(--bg)}
+main{width:min(1100px,calc(100% - 28px));margin:28px auto 48px;padding:42px 48px 52px;background:#fff}
+.main-title{font-size:34px!important;line-height:1.38!important;font-weight:800!important;letter-spacing:.3px!important;margin:4px 0 28px!important;text-align:center;color:var(--blue-dark)}
+.main-title .eyebrow{display:block;font-size:18px!important;line-height:1.5!important;font-weight:700!important;letter-spacing:1px!important;margin:0 0 6px!important}
+.main-title .title-text{display:block}
+h2{font-size:23px!important;line-height:1.45!important;font-weight:750!important;margin:35px 0 16px!important;padding-bottom:9px!important;border-bottom:2px solid var(--blue)}
+h3,.info-title{font-size:17px!important;line-height:1.55!important;font-weight:700!important}
+p,.intro{font-size:16px!important;line-height:1.85!important}
+.note,.small-note,.flow-caption{font-size:15px!important;line-height:1.75!important}
+.table-wrap{width:100%;max-width:100%;overflow-x:auto;overflow-y:hidden;margin:12px 0 18px}
+table,th,td{font-size:16px!important;line-height:1.7!important}
+table{border-collapse:collapse;width:100%;table-layout:fixed;background:#fff}
+th,td{padding:11px 13px!important;border:1px solid var(--line);vertical-align:middle}
+thead th{background:var(--header)!important;color:#173b5f!important;font-weight:700!important}
+tbody th[scope="row"],tbody th{background:#fff!important;color:var(--text)!important;font-weight:700!important}
+tbody td{background:#fff!important}
+.amount,.kpi-table .amount,.reward-table .amount,.count{font-size:20px!important;font-weight:700!important;color:var(--blue-dark)!important;font-variant-numeric:tabular-nums}
+.amount .unit,.kpi-table .unit,.reward-table .unit{font-size:15px!important;font-weight:400!important}
+.formula{font-size:19px!important;font-weight:700!important;line-height:1.6!important}
+.info-title{padding:12px 16px!important}
+.callout p,.info-body p,.payment-example p,.process-step p{font-size:16px!important;line-height:1.78!important}
+.footer{margin-top:37px;padding-top:21px;border-top:1px solid #d9e2eb}
+.footer p{font-size:15px!important;line-height:1.8!important}
+.footer .contact-phone{color:var(--blue-dark);font-weight:700;text-decoration:underline;white-space:nowrap}
+.footer .signature{font-weight:700!important;text-align:right}
+@media(max-width:760px){
+ main{width:100%;margin:0;padding:26px 16px 38px;border:0;box-shadow:none}
+ .main-title{font-size:27px!important;line-height:1.4!important;margin:0 0 25px!important}
+ .main-title .eyebrow{font-size:16px!important;letter-spacing:.7px!important;margin-bottom:6px!important}
+ h2{font-size:20px!important;line-height:1.5!important;margin:30px 0 14px!important;padding-bottom:8px!important}
+ h3,.info-title{font-size:16px!important}
+ p,.intro,.callout p,.info-body p,.payment-example p,.process-step p{font-size:15px!important;line-height:1.8!important}
+ .note,.small-note,.flow-caption,.footer p{font-size:14px!important}
+ table,th,td{font-size:14px!important;line-height:1.65!important}
+ th,td{padding:9px 8px!important}
+ .amount,.kpi-table .amount,.reward-table .amount,.count{font-size:18px!important}
+ .amount .unit,.kpi-table .unit,.reward-table .unit{font-size:13px!important}
+ .formula{font-size:17px!important}
+ .info-title{padding:11px 13px!important}
+ .footer{margin-top:30px}
+}
+@media(max-width:360px){main{padding-left:13px;padding-right:13px} .main-title{font-size:25px!important} th,td{padding:8px 6px!important}}
+@media print{body{background:#fff} main{width:100%;margin:0;padding:0;border:0;box-shadow:none}}
+</style><style data-design-system="compact-consistent-v3">
+/* 五份網頁共同視覺規範 v3: 精簡、緊湊、只強調關鍵資訊 */
+:root{--text:#243244;--muted:#617083;--blue:#1f5d8f;--blue-dark:#174a72;--header:#dcecf7;--line:#b7c6d4;--bg:#f5f7fa}
+body{line-height:1.6!important}
+main{width:min(960px,calc(100% - 28px))!important;margin:18px auto 28px!important;padding:30px 36px 34px!important;border:1px solid #e3e8ee!important;box-shadow:0 3px 12px rgba(0,0,0,.035)!important}
+main header{margin:0 0 19px!important}
+.main-title{font-size:30px!important;font-weight:750!important;line-height:1.35!important;letter-spacing:0!important;margin:0 0 13px!important;color:var(--blue-dark)!important}
+.main-title .eyebrow,.main-title .title-text{font-size:inherit!important;letter-spacing:0!important;line-height:inherit!important;font-weight:inherit!important;margin:0!important}
+.main-title .eyebrow{display:block!important}
+.main-title .title-text{display:block!important}
+section{margin:0!important;padding:0!important}
+h2{font-size:20px!important;font-weight:700!important;line-height:1.45!important;margin:23px 0 10px!important;padding:0 0 7px!important;border-bottom:2px solid var(--blue)!important}
+h3,.info-title{font-size:15px!important;font-weight:650!important;line-height:1.55!important}
+p,.intro,.callout p,.info-body p,.payment-example p,.process-step p{font-size:15px!important;line-height:1.65!important;font-weight:400!important;margin:0 0 8px!important}
+strong,b{font-weight:600!important}
+.note,.small-note,.flow-caption{font-size:13.5px!important;line-height:1.6!important;margin:6px 0 9px!important;color:#526174!important}
+.table-wrap{margin:8px 0 10px!important;overflow-x:auto!important;overflow-y:hidden!important}
+table{font-size:14px!important;line-height:1.5!important;background:#fff!important}
+th,td{font-size:14px!important;line-height:1.5!important;padding:8px 11px!important;vertical-align:middle!important;border:1px solid var(--line)!important}
+thead th{background:var(--header)!important;color:#173b5f!important;font-weight:650!important}
+tbody td,tbody th,th[scope=row]{background:#fff!important;color:var(--text)!important;font-weight:400!important}
+tbody th[scope=row]{font-weight:600!important}
+.reward-table .amount,.kpi-table .amount,.amount,.count{font-size:17px!important;font-weight:650!important;color:var(--blue-dark)!important;white-space:nowrap!important}
+.reward-table .unit,.kpi-table .unit,.unit{font-size:13px!important;font-weight:400!important}
+.formula{font-size:17px!important;font-weight:650!important;line-height:1.5!important;letter-spacing:0!important}
+.callout{margin:10px 0 12px!important;padding:10px 13px!important}
+.callout p:last-child,.info-body p:last-child,.payment-example p:last-child{margin-bottom:0!important}
+.info-box{margin:11px 0 12px!important;border-radius:5px!important}
+.info-title{padding:9px 12px!important;margin:0!important}
+.info-body{padding:10px 12px!important}
+.payment-example{margin:10px 0!important;padding:11px 13px!important}
+.payment-example .label{font-size:12px!important;margin:0 0 4px!important;font-weight:650!important}
+.level-flow{margin:10px 0 8px!important;gap:5px!important}
+.level-pill{padding:8px 7px!important;font-weight:600!important}
+.flow-caption{margin:5px 0 7px!important}
+.grade-table td{line-height:1.6!important}
+.process-grid{margin:9px 0!important;gap:9px!important}
+.process-step{padding:10px 12px!important}
+.process-step p{font-size:14px!important;margin:3px 0 0!important}
+.footer{margin:23px 0 0!important;padding:14px 0 0!important;border-top:1px solid #d9e2eb!important}
+.footer p{font-size:13.5px!important;line-height:1.65!important;margin:0 0 6px!important;color:#526174!important}
+.footer .signature{font-size:13.5px!important;font-weight:600!important;margin:10px 0 0!important}
+.footer a[href^="tel:"]{color:var(--blue-dark)!important;font-weight:650!important;text-decoration:underline!important;white-space:nowrap!important}
+@media(max-width:760px){
+ main{width:100%!important;margin:0!important;padding:22px 15px 27px!important;border:0!important;box-shadow:none!important}
+ main header{margin-bottom:16px!important}
+ .main-title{font-size:25px!important;line-height:1.36!important;margin:0 0 11px!important}
+ h2{font-size:18px!important;margin:21px 0 9px!important;padding-bottom:6px!important}
+ p,.intro,.callout p,.info-body p,.payment-example p,.process-step p{font-size:14px!important;line-height:1.6!important;margin-bottom:7px!important}
+ .note,.small-note,.flow-caption{font-size:12.5px!important}
+ table,th,td{font-size:13px!important;line-height:1.48!important}
+ th,td{padding:7px 7px!important}
+ .conditions th:first-child{width:28%!important}
+ .reward-table .amount,.kpi-table .amount,.amount,.count{font-size:16px!important}
+ .reward-table .unit,.kpi-table .unit,.unit{font-size:12px!important}
+ h3,.info-title{font-size:14px!important}
+ .formula{font-size:15px!important}
+ .level-flow{gap:4px!important}
+ .level-pill{padding:7px 2px!important;font-size:12px!important}
+ .level-arrow{font-size:12px!important}
+ .footer p,.footer .signature{font-size:12.5px!important}
+}
+@media(max-width:360px){main{padding-left:12px!important;padding-right:12px!important}.main-title{font-size:23px!important}table,th,td{font-size:12.5px!important}th,td{padding:6px 5px!important}}
+@media print{main{width:100%!important;padding:0!important;margin:0!important;border:0!important;box-shadow:none!important}}
+</style></head><body><main>
+<header><h1 class="main-title"><span class="title-text">緊急支援人力<br/>會員 KPI 制度</span></h1><p class="intro">KPI 依會員每月支援表現計算，包含<strong>店長評分、出勤紀錄及服務品質</strong>。當月 KPI 達 80 分且符合獎金領取資格，即可依分數級距領取獎金。</p></header>
+<section aria-labelledby="reward"><h2 id="reward">一、每月 KPI 獎金</h2><p>每月結算一次，依當月 KPI 總分對應獎金級距，<strong>最高為 100 分</strong>。</p><div class="table-wrap"><table aria-label="每月 KPI 分數與獎金" class="kpi-table"><thead><tr><th scope="col">KPI 總分</th><th scope="col">獎金金額</th></tr></thead><tbody>
+<tr><td><strong>100 分</strong></td><td><span class="amount">2,000<span class="unit">元</span></span></td></tr>
+<tr><td><strong>95.0～99.9 分</strong></td><td><span class="amount">1,000<span class="unit">元</span></span></td></tr>
+<tr><td><strong>90.0～94.9 分</strong></td><td><span class="amount">700<span class="unit">元</span></span></td></tr>
+<tr><td><strong>85.0～89.9 分</strong></td><td><span class="amount">300<span class="unit">元</span></span></td></tr>
+<tr><td><strong>80.0～84.9 分</strong></td><td><span class="amount">200<span class="unit">元</span></span></td></tr>
+<tr><td><strong>未滿 80 分</strong></td><td><span class="amount">0<span class="unit">元</span></span></td></tr>
+</tbody></table></div></section>
+<section aria-labelledby="eligibility"><h2 id="eligibility">二、KPI 獎金領取資格</h2><p><strong>必須同時符合</strong>下列四項條件，才可領取當月 KPI 獎金。</p><div class="table-wrap"><table aria-label="KPI 獎金領取條件" class="conditions"><thead><tr><th scope="col">項目</th><th scope="col">領取條件</th></tr></thead><tbody>
+<tr><th scope="row">KPI 分數</th><td><strong>80 分以上</strong></td></tr>
+<tr><th scope="row">支援次數</th><td>當月至少支援 <strong>5 次</strong></td></tr>
+<tr><th scope="row">支援店數</th><td>當月至少支援 <strong>2 間不同店舖</strong></td></tr>
+<tr><th scope="row">低分評價</th><td>當月<strong>不得有 2 分以下</strong>之評價紀錄</td></tr>
+</tbody></table></div><div class="callout"><p>若支援次數、店數或低分評價任一項未達資格，即使 KPI 計算分數達 80 分以上，<strong>當月仍無法領取 KPI 獎金</strong>。</p></div></section>
+<section aria-labelledby="scoring"><h2 id="scoring">三、店長評分換算</h2><p>依店長評分換算對應 KPI 基礎分數，再計入出勤與服務品質加減分。</p><div class="table-wrap"><table aria-label="店長評分與 KPI 分數換算" class="score-table"><thead><tr><th scope="col">店長評分</th><th scope="col">KPI 基礎分數</th></tr></thead><tbody>
+<tr><td>5.0</td><td><strong>100 分</strong></td></tr><tr><td>4.6～4.9</td><td><strong>90 分</strong></td></tr><tr><td>4.1～4.5</td><td><strong>80 分</strong></td></tr><tr><td>3.6～4.0</td><td><strong>70 分</strong></td></tr><tr><td>3.1～3.5</td><td><strong>60 分</strong></td></tr><tr><td>2.6～3.0</td><td><strong>50 分</strong></td></tr><tr><td>2.1～2.5</td><td><strong>40 分</strong></td></tr><tr><td>1.6～2.0</td><td><strong>30 分</strong></td></tr><tr><td>1.1～1.5</td><td><strong>20 分</strong></td></tr><tr><td>0.6～1.0</td><td><strong>10 分</strong></td></tr><tr><td>0.0～0.5</td><td><strong>0 分</strong></td></tr></tbody></table></div></section>
+<section aria-labelledby="attendance"><h2 id="attendance">四、出勤紀錄扣分</h2><div class="table-wrap"><table aria-label="KPI 出勤扣分" class="small-table"><thead><tr><th scope="col">出勤紀錄</th><th scope="col">KPI 扣分</th></tr></thead><tbody>
+<tr><td>曠職</td><td>－20 分／次</td></tr><tr><td>臨時請假</td><td>－15 分／次</td></tr><tr><td>一般請假</td><td>－5 分／次</td></tr><tr><td>遲到／早退</td><td>－2 分／次</td></tr>
+</tbody></table></div><p class="note">全勤加分與多店支援加分已取消。</p></section>
+<section aria-labelledby="service"><h2 id="service">五、服務品質加減分</h2><div class="table-wrap"><table aria-label="服務品質 KPI 加減分" class="small-table"><thead><tr><th scope="col">服務紀錄</th><th scope="col">KPI 加減分</th></tr></thead><tbody>
+<tr><td>080 客服讚美</td><td>＋10 分／次</td></tr><tr><td>意見宅配讚美</td><td>＋5 分／次</td></tr><tr><td>營業主管／店長讚美</td><td>＋1 分／次</td></tr><tr><td>080 客服抱怨</td><td>－10 分／次</td></tr><tr><td>意見宅配客訴</td><td>－5 分／次</td></tr><tr><td>一般客訴</td><td>－5 分／次</td></tr><tr><td>營業主管／店長投訴</td><td>－1 分／次</td></tr>
+</tbody></table></div></section>
+<section aria-labelledby="method"><h2 id="method">六、KPI 計算與獎金認定</h2><div class="info-box"><h3 class="info-title">KPI 總分</h3><div class="info-body"><p class="formula">店長評分換算分數＋服務品質加分－出勤及服務品質扣分</p><p>依各項紀錄計算，<strong>KPI 最高以 100 分計</strong>；獎金另須通過第二節的發放資格判定。</p></div></div><p class="note" style="margin-top:16px">KPI 為每月計算；會員等級晉升另有不同的支援次數、KPI 與異常客訴門檻，不等同於 KPI 獎金資格。</p></section>
+<footer class="footer"><p>如對 KPI 分數、出勤評價或獎金資格有疑問，請聯繫招募中心：<a class="tel contact-phone" href="tel:+886281816056">(02) 8181-6056</a>。</p><p class="signature">招募中心 敬上</p></footer>
+</main></body></html>
